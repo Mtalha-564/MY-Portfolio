@@ -1,0 +1,308 @@
+@media (max-width:991px){
+.header .navbar-toggler{
+display: flex;
+}
+.header .navbar .navbar-collapse{
+padding-top: 1rem;
+}
+.header .navbar-nav .nav-link{
+text-align: center;
+}
+.header .navbar-nav .nav-item{
+padding-top: 1rem;
+}
+.header .header_right{
+width: max-content;
+margin: 1rem auto 0;
+}
+/* about me page */
+.mission-vision-section .mission-vision-card{
+margin-bottom:2rem;
+}
+}
+@media (min-width:862px) and (max-width:991px){
+/* about me page */
+.info-strip {
+width:80%;
+}
+}
+@media (max-width:767px){
+.copyright-section .copyright-p-2{
+display: none;
+}
+.copyright-section .container{
+justify-content: center !important;
+}
+/* about me page */
+.strip-content .item {
+flex: 1 1 40%;
+padding:2rem;
+}
+.strip-content .item:nth-child(2) {
+border: none;
+}
+.info-strip {
+width:75%;
+}
+}
+@media (max-width:402px){
+.copyright-section p{
+font-size:0.875rem;
+}
+}
+@media (max-width:354px){
+.copyright-section p{
+font-size:0.625rem;
+}
+}
+@media (max-width:575px){
+.banner_wrapper .box{
+margin-left: auto;
+margin-right: auto;
+}
+.banner_wrapper .banner-title-text{
+margin-left: auto;
+margin-right: auto;
+}
+.banner_wrapper .learn-more-btn-section{
+justify-content: center;
+}
+/* services section */
+.btn-block-1{
+display: none;
+}
+.promo_section .section_heading h4::before{
+left:35.875%;
+}
+.projects_section .section_heading h4::before{
+left:30.875%;
+}
+.promo_section .section_heading{
+text-align: center;
+}
+.projects_section .section_heading{
+text-align: center !important;
+}
+/* Project page cta section */
+.cta-section{
+padding-bottom: 12rem;
+}
+/* about me page */
+.info-strip {
+width:90%;
+}
+}
+@media (max-width:485px){
+/* services section */
+.promo_section .section_heading h4::before{
+left:31.875%;
+}
+.projects_section .section_heading h4::before{
+left:28.875%;
+}
+}
+@media (max-width:435px){
+.mission-vision-section .section_heading h2{
+font-size:2.5rem;
+}
+}
+@media (max-width:425px){
+.banner_wrapper{
+padding-top: 180px;
+}
+.banner_wrapper .banner-title {
+font-weight:600;
+font-size:50px;
+}
+.banner_wrapper .learn-more-btn-section{
+display: block;
+}
+.banner_wrapper .learn-more-btn-section .btn-container{
+width: max-content;
+margin-bottom: 1rem;
+margin-left: auto;
+margin-right: auto;
+}
+.banner_wrapper .learn-more-btn-section .hire-me{
+padding:0.80rem 6rem;
+}
+.hire-badge {
+width:90px;
+height:90px;
+}
+/* services section */
+.promo_section .section_heading h4::before{
+left:28.875%;
+}
+.projects_section .section_heading h4::before{
+left:24.875%;
+}
+/* about me page */
+.info-strip {
+margin-top: -40px;
+}
+.award-section .award-card{
+flex-direction: column;
+}
+.award-section .section_heading h2{
+font-size: 2.5rem;
+}
+}
+@media (max-width:414px){
+.about_wrapper .about-detail{
+flex-direction: column;
+gap: 40px;
+}
+.about_wrapper .btnsign-container{
+flex-direction: column;
+gap: 50px;
+}
+.about_wrapper .btnsign-container .btn-container{
+margin-right: auto;
+}
+.about_wrapper .about-sec-padding{
+padding-top: 6rem !important;
+padding-bottom:5rem !important;
+}
+}
+@media (max-width:399px){
+/* about me page */
+.info-strip {
+margin-top: -40px;
+}
+.strip-content .item {
+flex: 1 1 60%;
+border-right: none !important;
+border-bottom: 1px solid #E89E17 !important;
+}
+/* about me page */
+.mission-vision-section .section_heading h2{
+font-size:2rem;
+}
+}
+@media (max-width:364px){
+.banner_wrapper .banner-title {
+font-size:45px;
+}
+.hire-badge {
+width:80px;
+height:80px;
+}
+.center-icon {
+width:32px;
+height:32px;
+}
+.center-icon i {
+font-size: 1.1rem;
+padding-top:2px;
+}
+.header{
+top:0;
+}
+.header .navbar{
+border-radius: 0;
+}
+.header .container{
+padding: 0;
+}
+.banner_wrapper{
+padding-top: 160px;
+}
+/* services section */
+.promo_section .section_heading h4::before{
+left:25.875%;
+}
+.projects_section .section_heading h4::before{
+left:20.875%;
+}
+.section_heading h2{
+font-size: 2.5rem;
+}
+}
+@media (max-width:375px){
+.section-skills-heading .text2{
+font-size:2.1875rem;
+}
+.section-skills-heading .text1{
+font-size:2.1875rem;
+}
+.projects_section .section_heading h4::before{
+left:20.875%;
+}
+.projects_section .section_heading .project-sec-heading{
+font-size: 2.5rem;
+}
+/* Project page cta section */
+.cta-section{
+padding-bottom: 15rem;
+}
+}
+@media (max-width:340px){
+.projects_section .section_heading .project-sec-heading{
+font-size: 2rem;
+}
+}
+@media (max-width:330px){
+.banner_wrapper .banner-title {
+font-size:40px;
+}
+.hire-badge {
+width:75px;
+height:75px;
+}
+/* services section */
+.promo_section .section_heading h4::before{
+left:22.875%;
+}
+.projects_section .section_heading h4::before{
+left:17.875%;
+}
+.section_heading h2{
+font-size: 2rem;
+}
+
+.section-skills-heading .text2{
+font-size:1.875rem;
+}
+.section-skills-heading .text1{
+font-size:1.875rem;
+}
+}
+@media (max-width:320px){
+.about_wrapper h1{
+font-size: 2.5rem;
+}
+/* about me page */
+.info-strip {
+margin-top: -20px;
+}
+.mission-vision-section .section_heading h2{
+font-size:1.8rem;
+}
+.award-section .section_heading h2{
+font-size: 2.2rem;
+}
+}
+@media (max-width:296px){
+.banner_wrapper .banner-title {
+font-size:38px;
+}
+.hire-badge {
+width:70px;
+height:70px;
+}
+.center-icon {
+width:25px;
+height:25px;
+}
+.center-icon i {
+font-size: 1rem;
+}
+/* services section */
+.promo_section .section_heading h4::before{
+left:18.875%;
+}
+.projects_section .section_heading h4::before{
+left:13.875%;
+}
+}
